@@ -1,0 +1,254 @@
+/*! Darvin Beats Style */
+body {
+    margin: auto;
+    background: #000000;  /* fallback for old browsers */
+    background-image: url("../images/luke-jones-uNNMB3zGj-s-unsplash.jpg");
+
+}
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+      url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+      url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+.dbmenu {
+    background: ghostwhite;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.dbmenu .menu-items {
+    display: flex;
+    text-align: center;
+}
+.dbmenu .menu-items li {
+    margin-right: 10px;
+    padding: 10px;
+}
+.dbmenu .menu-items li a {
+    color: rgb(41, 41, 41);
+    font-size: 13px;
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.dbmenu .menu-items li:hover, li:active {
+    background: #ececec;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+/*! Header */
+header {
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+header .headlogo {
+    height: 150px;
+    width: 150px;
+}
+header h1 {
+    font-size: 35px !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+header strong {
+    color: rgb(255, 255, 255);
+}
+header .headertext {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.discount {
+    text-decoration: line-through;
+    font-style: italic;
+}
+.shopcart {
+    font-size: 24px;
+}
+.shopcart:before {
+    content: "";
+}
+@media screen and (min-width: 769px) {
+    .price_columns {
+        display: flex;
+    }
+}
+
+.licensebox {
+    width: 100%;
+    height: auto;
+    min-height: auto;
+    display: inline-block;
+    z-index: 50;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.licensebox .licensetop {
+    background-color: #390dad;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    padding: 46px 20px;
+    display: block;
+    font-size: 13px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.licensebox .licensetop b {
+    text-transform: uppercase;
+}
+.licensebox .text-detail {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #b4ff6d
+}
+.licensebox .licenseprice {
+    font-size: 42px!important;
+    margin-bottom: 2px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+.licensebox .licensenote {
+    display: block;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.licensebox .bottom {
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+    display: block;
+    font-size: 13px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.licensebox .bottom p {
+    margin-bottom: 10px;
+}
+.licensebox .bottom .material-icons {
+    font-size: 15px;
+}
+#licensing-info, #subscriptions-info {
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color: #000;
+    color: #fff;
+    padding: 95px 0;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.gold-button {
+    background: #ffc439;
+}
+.noselect {
+    cursor: default;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.message-body p {
+    margin-bottom: 15px;
+}
+.payment_box {
+    padding: .75rem;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.payment_box .payment_title {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: ghostwhite;
+    align-items: center;
+    background-color: #390dad;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.payment_box .payment_content{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+    padding: 20px;
+    text-align: center;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.payment_content .listbox {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 13px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.payment_content .paybutton {
+    display:inline-flex;
+    align-items: center;
+    background-color: black;
+    height: 40px;
+    width: 120px;
+    line-height: 40px;
+    padding: 0 16px;
+    min-height: auto!important;
+    min-width: auto!important;
+    text-shadow: none;
+    font-weight: 600!important;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.payment_content a {
+    color: #fff;
+}
+.dispblock {
+    display: block;
+}
+.footerflow {
+    color: rgb(255, 255, 255);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+footer a {
+    color: rgb(255, 215, 38);
+    font-weight: bold;
+}
+footer a:hover {
+    color:  rgb(255, 255, 255);
+}
+.footerflow strong {
+    color: rgb(255, 255, 255);
+}
