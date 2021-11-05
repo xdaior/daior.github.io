@@ -11,31 +11,40 @@
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <link rel="preconnect" href="https://fonts.gstatic.com">
       <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap" rel="stylesheet">
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-MDD9X92CVN"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-MDD9X92CVN');
+      </script>
       <!-- Messenger plugin del chat Code -->
       <div id="fb-root"></div>
       <!-- Your plugin del chat code -->
       <div id="fb-customer-chat" class="fb-customerchat">
       </div>
-        <script>
-          var chatbox = document.getElementById('fb-customer-chat');
-          chatbox.setAttribute("page_id", "109797911458905");
-          chatbox.setAttribute("attribution", "biz_inbox");
+      <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "109797911458905");
+        chatbox.setAttribute("attribution", "biz_inbox");
 
-          window.fbAsyncInit = function() {
-            FB.init({
-              xfbml            : true,
-              version          : 'v12.0'
-            });
-          };
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v12.0'
+          });
+        };
 
-          (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
-            fjs.parentNode.insertBefore(js, fjs);
-          }(document, 'script', 'facebook-jssdk'));
-        </script>
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      </script>
     </head>
     <body>
       <nav class="dbmenu">
@@ -61,7 +70,7 @@
                     <p>USO PROMOCIONAL</p>  
                   </div>
                   <div class="bottom">
-                    <p><span class="material-icons">done</span> Obtienes el archivo MP3 (sin etiquetas)</p>
+                    <p><span class="material-icons">done</span> Obtienes el beat en formato MP3 (sin etiquetas)</p>
                     <p><span class="material-icons">done</span> Obtienes información sobre tono y tempo del beat.</p>
                     <p><span class="material-icons">done</span> Obtienes la licencia en formato PDF.</p>
                     <p><span class="material-icons">done</span> Puedes distribuir tu canción en todas las plataformas.</p>
@@ -79,7 +88,7 @@
                     <p>USO COMERCIAL</p>  
                   </div>
                   <div class="bottom">
-                    <p><span class="material-icons">done</span> Obtienes el archivo WAV & MP3 (sin etiquetas)</p>
+                    <p><span class="material-icons">done</span> Obtienes el beat en formato WAV & MP3 (sin etiquetas)</p>
                     <p><span class="material-icons">done</span> Obtienes información sobre tono y tempo del beat.</p>
                     <p><span class="material-icons">done</span> Obtienes la licencia en formato PDF.</p>
                     <p><span class="material-icons">done</span> Puedes distribuir tu canción en todas las plataformas.</p>
@@ -96,7 +105,7 @@
                     <p>USO COMERCIAL</p>  
                   </div>
                   <div class="bottom">
-                    <p><span class="material-icons">done</span> Obtienes el archivo WAV + MP3 + Trackouts (sin etiquetas)</p>
+                    <p><span class="material-icons">done</span> Obtienes el beat en formato WAV + MP3 + Trackouts (sin etiquetas)</p>
                     <p><span class="material-icons">done</span> Obtienes información sobre tono y tempo del beat.</p>
                     <p><span class="material-icons">done</span> Obtienes la licencia en formato PDF.</p>
                     <p><span class="material-icons">done</span> Puedes distribuir tu canción en todas las plataformas.</p>
