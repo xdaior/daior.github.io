@@ -1,254 +1,44 @@
- <!DOCTYPE html>
-  <html>
+<html>
     <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Daior Beats</title>
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-      <link rel="stylesheet" href="css/main.css">
-      <link rel="icon" type="image/vnd.microsoft.icon" href="images/darvinbeatslogo.ico">
-      <meta name="theme-color" content="#00d1b2"> <!--  #00d1b2-->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap" rel="stylesheet">
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-MDD9X92CVN"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+        <title>Daior Beats Store</title>
+        <style>
+            body {
+            margin: 0px;
+            padding: 0px;
+            border: 0px;
+            font: inherit;
+            vertical-align: baseline;
+            height: 100%;
+            }
+        </style>
+        <link rel="shortcut icon" href="images/Daior-Logo.png">
+        <!-- Messenger plugin del chat Code -->
+        <div id="fb-root"></div>
+        <!-- Your plugin del chat code -->
+        <div id="fb-customer-chat" class="fb-customerchat">
+        </div>
+        <script>
+            var chatbox = document.getElementById('fb-customer-chat');
+            chatbox.setAttribute("page_id", "109797911458905");
+            chatbox.setAttribute("attribution", "biz_inbox");
 
-        gtag('config', 'G-MDD9X92CVN');
-      </script>
-      <!-- Messenger plugin del chat Code -->
-      <div id="fb-root"></div>
-      <!-- Your plugin del chat code -->
-      <div id="fb-customer-chat" class="fb-customerchat">
-      </div>
-      <script>
-        var chatbox = document.getElementById('fb-customer-chat');
-        chatbox.setAttribute("page_id", "109797911458905");
-        chatbox.setAttribute("attribution", "biz_inbox");
+            window.fbAsyncInit = function() {
+            FB.init({
+                xfbml            : true,
+                version          : 'v12.0'
+            });
+            };
 
-        window.fbAsyncInit = function() {
-          FB.init({
-            xfbml            : true,
-            version          : 'v12.0'
-          });
-        };
-
-        (function(d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) return;
-          js = d.createElement(s); js.id = id;
-          js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
-          fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-      </script>
+            (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
     </head>
     <body>
-      <nav class="dbmenu">
-        <ul class="menu-items">
-          <li><a href="https://www.youtube.com/daiorbeats" target="_blank">Beats</a></li>
-          <li><a href="#">Librerías</a></li>
-          <li><a href="#purchase">Comprar</a></li>
-        </ul>
-      </nav>
-      <header>
-        <div class="headertext">
-          <h1>Daior Beats</h1>
-          <p>¿Deseas comprar un ritmo? <strong>¡Perfecto!</strong> elige una <em>licencia</em> 🔥</p>
-        </div>
-      </header>
-        <div class="container is-max-desktop">
-            <div class="price_columns">
-              <div class="column">
-                <div class="licensebox noselect">
-                  <div class="has-text-centered licensetop">
-                    <p><b>MP3 Lease</b></p>
-                    <strong class="licenseprice">$25</strong>
-                    <p>USO PROMOCIONAL</p>  
-                  </div>
-                  <div class="bottom">
-                    <p><span class="material-icons">done</span> Obtienes el beat en formato MP3 (sin etiquetas)</p>
-                    <p><span class="material-icons">done</span> Obtienes información sobre tono y tempo del beat.</p>
-                    <p><span class="material-icons">done</span> Obtienes la licencia en formato PDF.</p>
-                    <p><span class="material-icons">done</span> Puedes distribuir tu canción en todas las plataformas.</p>
-                    <p><span class="material-icons">done</span> Límite de 10.000 streams.</p>
-                    <p><span class="material-icons">done</span> No permite monetización en YouTube.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="column">
-                <div class="licensebox noselect">
-                  <div class="has-text-centered licensetop">
-                    <span class="text-detail">P O P U L A R </span>
-                    <p><b>WAV Lease</b></p>
-                    <strong class="licenseprice">$45</strong>
-                    <p>USO COMERCIAL</p>  
-                  </div>
-                  <div class="bottom">
-                    <p><span class="material-icons">done</span> Obtienes el beat en formato WAV & MP3 (sin etiquetas)</p>
-                    <p><span class="material-icons">done</span> Obtienes información sobre tono y tempo del beat.</p>
-                    <p><span class="material-icons">done</span> Obtienes la licencia en formato PDF.</p>
-                    <p><span class="material-icons">done</span> Puedes distribuir tu canción en todas las plataformas.</p>
-                    <p><span class="material-icons">done</span> Límite de 50.000 streams.</p>
-                    <p><span class="material-icons">done</span> No permite monetización en YouTube.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="column">
-                <div class="licensebox noselect">
-                  <div class="has-text-centered licensetop">
-                    <p><b>PRO License</b></p>
-                    <strong class="licenseprice">$120</strong>
-                    <p>USO COMERCIAL</p>  
-                  </div>
-                  <div class="bottom">
-                    <p><span class="material-icons">done</span> Obtienes el beat en formato WAV + MP3 + Trackouts (sin etiquetas)</p>
-                    <p><span class="material-icons">done</span> Obtienes información sobre tono y tempo del beat.</p>
-                    <p><span class="material-icons">done</span> Obtienes la licencia en formato PDF.</p>
-                    <p><span class="material-icons">done</span> Puedes distribuir tu canción en todas las plataformas.</p>
-                    <p><span class="material-icons">done</span> Sin límite de streams.</p>
-                    <p><span class="material-icons">done</span> Permite monetización en YouTube.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="column">
-                <div class="licensebox noselect">
-                  <div class="has-text-centered licensetop">
-                    <p><b>Exclusive Rights</b></p>
-                    <strong class="licenseprice">~</strong>
-                    <strong class="licensenote">ACORDAR PRECIO</strong>
-                    <p>WAV, MP3 & Trackouts</p>  
-                  </div>
-                  <div class="bottom">
-                    <p><span class="material-icons">done</span> Debes acordar el precio a través del chat de esta página o el e-mail de contacto 💯. </p>
-                    <p><span class="material-icons">done</span> Obtienes el archivo WAV + MP3 + Trackouts (sin etiquetas)</p>
-                    <p><span class="material-icons">done</span> Obtienes información sobre tono y tempo del beat.</p>
-                    <p><span class="material-icons">done</span> Obtienes la licencia en formato PDF.</p>
-                    <p><span class="material-icons">done</span> Puedes distribuir tu canción en todas las plataformas.</p>
-                    <p><span class="material-icons">done</span> Sin límite de streams.</p>
-                    <p><span class="material-icons">done</span> Permite monetización en YouTube.</p>
-                    </div>
-                </div>
-              </div>
-            </div>
-           <div id="purchase" class="payment_box">
-              <div class="payment_title">ADQUIERE TU LICENCIA</div>
-                  <div class="payment_content">
-                      <div style="margin:0 auto; text-align: center;">
-                        <div id="smart-button-container">
-                          <div style="text-align: center;">
-                            <div style="margin-bottom: 1.25rem;">
-                              <select id="item-options" class="listbox"><option value="Licencia Básica" price="25">Licencia Básica - 25 USD</option><option value="Licencia Premium" price="45">Licencia Premium - 45 USD</option><option value="Licencia Ilimitada" price="120">Licencia Ilimitada - 120 USD</option></select>
-                              <select style="visibility: hidden" id="quantitySelect"></select>
-                            </div>
-                          <div id="paypal-button-container"></div>
-                          </div>
-                        </div>
-                        <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
-                        <script>
-                          function initPayPalButton() {
-                            var shipping = 0;
-                            var itemOptions = document.querySelector("#smart-button-container #item-options");
-                        var quantity = parseInt();
-                        var quantitySelect = document.querySelector("#smart-button-container #quantitySelect");
-                        if (!isNaN(quantity)) {
-                          quantitySelect.style.visibility = "visible";
-                        }
-                        var orderDescription = '';
-                        if(orderDescription === '') {
-                          orderDescription = 'Item';
-                        }
-                        paypal.Buttons({
-                          style: {
-                            shape: 'pill',
-                            color: 'gold',
-                            layout: 'vertical',
-                            label: 'paypal',
-                            
-                          },
-                          createOrder: function(data, actions) {
-                            var selectedItemDescription = itemOptions.options[itemOptions.selectedIndex].value;
-                            var selectedItemPrice = parseFloat(itemOptions.options[itemOptions.selectedIndex].getAttribute("price"));
-                            var tax = (0 === 0 || false) ? 0 : (selectedItemPrice * (parseFloat(0)/100));
-                            if(quantitySelect.options.length > 0) {
-                              quantity = parseInt(quantitySelect.options[quantitySelect.selectedIndex].value);
-                            } else {
-                              quantity = 1;
-                            }
-                    
-                            tax *= quantity;
-                            tax = Math.round(tax * 100) / 100;
-                            var priceTotal = quantity * selectedItemPrice + parseFloat(shipping) + tax;
-                            priceTotal = Math.round(priceTotal * 100) / 100;
-                            var itemTotalValue = Math.round((selectedItemPrice * quantity) * 100) / 100;
-                    
-                            return actions.order.create({
-                              purchase_units: [{
-                                description: orderDescription,
-                                amount: {
-                                  currency_code: 'USD',
-                                  value: priceTotal,
-                                  breakdown: {
-                                    item_total: {
-                                      currency_code: 'USD',
-                                      value: itemTotalValue,
-                                    },
-                                    shipping: {
-                                      currency_code: 'USD',
-                                      value: shipping,
-                                    },
-                                    tax_total: {
-                                      currency_code: 'USD',
-                                      value: tax,
-                                    }
-                                  }
-                                },
-                                items: [{
-                                  name: selectedItemDescription,
-                                  unit_amount: {
-                                    currency_code: 'USD',
-                                    value: selectedItemPrice,
-                                  },
-                                  quantity: quantity
-                                }]
-                              }]
-                            });
-                          },
-                          onApprove: function(data, actions) {
-                            return actions.order.capture().then(function(orderData) {
-                              
-                              // Full available details
-                              console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
-                    
-                              // Show a success message within this page, e.g.
-                              const element = document.getElementById('paypal-button-container');
-                              element.innerHTML = '';
-                              element.innerHTML = '<h3>Thank you for your payment!</h3>';
-                    
-                              // Or go to another URL:  actions.redirect('thank_you.html');
-                    
-                            });
-                          },
-                          onError: function(err) {
-                            console.log(err);
-                          },
-                        }).render('#paypal-button-container');
-                      }
-                      initPayPalButton();
-                        </script>                              
-                      </div>
-                      <p><strong>¡Gracias por su preferencia!</strong></p>
-                      </div>    
-                  </div>
-            </div>
-      </div>     
-      <footer class="footerflow">
-        <div class="block has-text-centered">
-          <p><strong>Daior Beats 2021</strong> by <a href="#">Daior</a>. All rights reserved.</p>
-        </div>
-      </footer>
+        <iframe src="https://player.beatstars.com/?storeId=126362" width="100%" height="800" style="border: 0px;"> -- none -- </iframe>
     </body>
-  </html>
+</html>
